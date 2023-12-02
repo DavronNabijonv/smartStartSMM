@@ -1,0 +1,46 @@
+@import url(../../styles/style.scss);
+
+.navbar {
+  width: 100%;
+  .navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    a {
+      font-family: var(--fontjura);
+      color: #fff;
+      margin: 2.5vw 0 0 0;
+      text-align: center;
+      font-size: 1.5vw;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      position: absolute;
+    }
+    a:nth-child(1){
+        margin-left: 26.5%;
+        padding: 0.7vw 4.2vw;
+    }
+    a:nth-child(2){
+        margin-left: 39.6%;
+        padding: 0.7vw 3.2vw;
+    }
+    a:nth-child(3){
+        margin-left: 52.8%;
+        padding: 0.7vw 3.38vw;
+    }
+    a:nth-child(4){
+        margin-left: 66%;
+        padding: 0.7vw 4.4vw;
+    }
+    a:nth-child(5){
+        margin-left: 79.1%;
+        padding: 0.7vw 2.8vw;
+    }
+    .active{
+        color: var(--col);
+        border-bottom: 2px solid #DBFF45;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import url(../../styles/style.scss);
+
+.we {
+  .wttl {
+    padding: 2.5vw;
+    text-align: center;
+    color: var(--col);
+    font-family: var(--fontfinter);
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .wbody {
+    display: flex;
+    align-items: center;
+    padding: 5vw 0 6.5vw 6vw;
+    .grp {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        margin-left: 4vw;
+      .gttl {
+        color: var(--col);
+        font-family: var(--fontfjura);
+        font-size: 1.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .gtxt {
+        width: 24vw;
+        color: #fff;
+        font-family: var(--fontfinter);
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

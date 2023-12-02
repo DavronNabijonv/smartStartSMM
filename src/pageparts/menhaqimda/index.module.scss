@@ -1,0 +1,95 @@
+@import url(../../styles/style.scss);
+
+.aboutme {
+  margin: 23.5vw 0 0 10.5vw;
+  padding-bottom: 12vw;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .f1 {
+      margin: 7vw 0 0 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+      img {
+        position: absolute;
+        width: 30vw;
+        height: 34vw;
+        flex-shrink: 0;
+        margin: -7vw 0 0 4vw;
+      }
+      .l1 {
+        position: absolute;
+        margin: -10.8vw 0 0 7.5vw;
+        width: 31.5vw;
+        height: 48.1vw;
+        flex-shrink: 0;
+        border-radius: 50%;
+        border: 0.35vw solid #292929;
+      }
+      .l2 {
+        position: absolute;
+        margin: -10.8vw 0 0 -2.6vw;
+        width: 32vw;
+        height: 48.1vw;
+        flex-shrink: 0;
+        border-radius: 50%;
+        border: 0.35vw solid #292929;
+      }
+    }
+    .f2 {
+      margin: -7vw 10vw 0 0;
+      .head {
+        .attl {
+          color: var(--col);
+          font-family: var(--fontfjura);
+          font-size: 4.5vw;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-bottom: 0.5vw;
+        }
+        .prg {
+          width: 35vw;
+          color: #fff;
+          font-family: var(--fontfjura);
+          font-size: 1.2vw;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .bd {
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding-top: 1vw;
+        .group {
+          display: flex;
+          align-items: flex-end;
+          gap: 1vw;
+          .prg2 {
+            color: var(--col);
+            font-family: var(--fontfjura);
+            font-size: 5vw;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+          .txt {
+            color: #fff;
+            font-family: var(--fontfjura);
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-bottom: 1vw;
+          }
+        }
+      }
+    }
+  }
+}

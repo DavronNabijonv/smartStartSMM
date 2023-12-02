@@ -1,0 +1,78 @@
+@import url(../../styles/style.scss);
+
+.xizmat {
+  padding-top: 1vw;
+  width: 100%;
+  .xttl {
+    width: 100%;
+    text-align: center;
+    color: var(--col);
+    font-family: var(--fontfjura);
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 2vw 0 0 0;
+  }
+  .xbody {
+    background: none;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 98vw;
+    
+    margin: auto;
+    .grp {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      position: absolute;
+      img {
+        width: 2vw;
+        height: 2vw;
+        flex-shrink: 0;
+      }
+      .txt {
+        width: 20vw;
+        color: #fff;
+        font-family: var(--fontfjura);
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    .grp:nth-child(1) {
+      margin: 8.5vw 0 0 8vw;
+      .txt {
+        width: 18vw;
+      }
+    }
+    .grp:nth-child(2) {
+      margin: 8.5vw 0 0 29vw;
+      .txt {
+        width: 16vw;
+      }
+    }
+    .grp:nth-child(3) {
+      margin: 8.5vw 0 0 50vw;
+      .txt {
+        width: 16vw;
+      }
+    }
+    .grp:nth-child(4) {
+      margin: 8.5vw 0 0 71vw;
+      .txt {
+        width: 18.5vw;
+      }
+    }
+    .grp:nth-child(5) {
+      margin: 22.5vw 0 0 14vw;
+    }
+    .grp:nth-child(6) {
+      margin: 22.5vw 0 0 58vw;
+    }
+  }
+}

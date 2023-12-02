@@ -1,0 +1,89 @@
+@import url(../../styles/style.scss);
+
+.mySwiper {
+  position: relative;
+  .swiper-button-prev {
+    position: absolute;
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    flex-shrink: 0;
+    border: 1px solid #fff;
+    margin: -10vw 0 0 0;
+    padding: 0 1.5vw 2.7vw 0;
+    text-align: center;
+  }
+  .swiper-button-prev::after {
+    color: #fff;
+    width: 1vw;
+    height: 1vw;
+  }
+  .swiper-button-next {
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    flex-shrink: 0;
+    border: 1px solid #fff;
+    margin: -10vw 0 0 0;
+    padding: 0 0 2.5vw 0;
+    text-align: center;
+  }
+  .swiper-button-next::after {
+    color: #fff;
+    width: 1vw;
+    height: 1vw;
+  }
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    .swiper-pagination-bullet {
+      width: 1.5vw;
+      height: 1.5vw;
+      flex-shrink: 0;
+      stroke-width: 2.25px;
+      stroke: #fff;
+      color: #dbff45;
+      background: #dbff45;
+    }
+  }
+  .swiper-wrapper {
+    margin: 2vw 2vw 10.8vw 2vw;
+    .swiper-slide {
+      .grp {
+        position: relative;
+        img {
+          width: 20vw;
+          height: 30vw;
+          flex-shrink: 0;
+        }
+        .backdrop {
+          width: 20vw;
+          height: 33vw;
+          flex-shrink: 0;
+          margin: -33vw 0 0 0;
+          position: absolute;
+          background: linear-gradient(10deg, #202020 0%, rgba(0, 0, 0, 0) 100%);
+        }
+        .ttl {
+          margin: 0.5vw 0;
+          color: var(--col);
+          font-family: var(--fontfjura);
+          font-size: 1.5vw;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .txt {
+          color: #fff;
+          font-family: var(--fontfjura);
+          font-size: 1.6vw;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 20vw;
+        }
+      }
+    }
+  }
+}

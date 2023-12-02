@@ -1,0 +1,37 @@
+@import url(../../styles/style.scss);
+
+.hamkor {
+  height: 30vw;
+  .f1 {
+    display: flex;
+    align-items: center;
+    margin: 3vw 0 0 0;
+    .p1 {
+      width: 15vw;
+      height: 10vw;
+      flex-shrink: 0;
+      background-image: url(../../assets/images/h3.png);
+      margin: -1vw 0 0 2vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .p2 {
+      width: 19vw;
+      height: 5.8vw;
+      flex-shrink: 0;
+      background-image: url(../../assets/images/h2.png);
+      margin: -2vw 0 0 3.8vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .p3 {
+      width: 19vw;
+      height: 1vw;
+      flex-shrink: 0;
+      background-image: url(../../assets/images/h4.png);
+      margin: -2vw 0 0 3.8vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

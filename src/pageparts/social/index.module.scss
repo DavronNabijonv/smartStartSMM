@@ -1,0 +1,97 @@
+@import url(../../styles/style.scss);
+
+.social {
+  .head {
+    width: 100%;
+    background-image: url(../../assets/images/Vector11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 1.6vw 0;
+    padding: 6.2vw 0 2.8vw 0vw;
+    .sttl {
+      text-align: center;
+      width: 60vw;
+      margin: auto;
+      color: var(--col);
+      text-align: center;
+      font-family: var(--fontfinter);
+      font-size: 4vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  .sbody {
+    height: 65vw;
+    position: relative;
+    .grp {
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+        position: absolute;
+      .l1 {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+        .gttl {
+          color: var(--col);
+          font-family: var(--fontfjura);
+          font-size: 5vw;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        hr {
+          width: 8vw;
+          height: 0.1vw;
+        }
+      }
+      .gtxt {
+        width: 21vw;
+        color: #fff;
+        font-family: var(--fontfjura);
+        font-size: 1.3vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .grp:nth-child(1){
+        margin: 0 0 0 10vw;
+        .gtxt{
+            width: 20vw;
+        }
+    }
+    .grp:nth-child(2){
+        margin: 0 0 0 35vw;
+        .gtxt{
+            width: 17vw;
+        }
+    }
+    .grp:nth-child(3){
+        margin: 0 0 0 58vw;
+        .gtxt{
+            width: 17vw;
+        }
+    }
+    .grp:nth-child(4){
+        margin: 22vw 0 0 23vw;
+    }
+    .grp:nth-child(5){
+        margin: 22vw 0 0 48vw;
+    }
+    .grp:nth-child(6){
+        margin: 22vw 0 0 72vw;
+    }
+    .grp:nth-child(7){
+        margin: 42vw 0 0 10vw;
+    }
+    .grp:nth-child(8){
+        margin: 42vw 0 0 34vw;
+    }
+    .grp:nth-child(9){
+        margin: 42vw 0 0 58vw;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+@import url(../../styles/style.scss);
+
+.footer {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.8rem;
+  background: #202020;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    .f1 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 10vw;
+      .main {
+        color: #fff;
+        font-family: var(--fontjura);
+        font-size: 1.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .prgs {
+        color: #898989;
+        font-family: var(--fontjura);
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+      }
+      .prgs:hover {
+        color: #fff;
+      }
+    }
+  }
+  .f2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    .main {
+      color: #fff;
+      font-family: var(--fontjura);
+      font-size: 1.5vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .withicon {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      .prgs2 {
+        width: 253.277px;
+        color: #898989;
+        font-family: var(--fontjura);
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      svg {
+        width: 23.95px;
+        height: 30px;
+        flex-shrink: 0;
+        fill: #fff;
+      }
+    }
+    .network {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      svg {
+        padding: 10px;
+        width: 45px;
+        height: 44px;
+        flex-shrink: 0;
+        background: #fff;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      svg:nth-child(2) {
+        padding: 0;
+        color: #202020;
+      }
+    }
+  }
+  .pastki {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    hr {
+      width: 80vw;
+      opacity: 0.7;
+      background: #fff;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+}

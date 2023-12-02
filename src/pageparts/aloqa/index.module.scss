@@ -1,0 +1,52 @@
+@import url(../../styles/style.scss);
+
+.aloqa {
+  height: 28vw;
+  margin: 1.5vw 0 0 0;
+  .attl {
+    width: 100%;
+    margin: 0 0 10vw 42vw;
+    color: var(--col);
+    font-family: var(--fontfjura);
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .abody {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 15vw;
+    gap: 17vw;
+    .g1 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7vw;
+      align-items: center;
+      padding-top: 1vw;
+      svg {
+        width: 2.5vw;
+        height: 2.5vw;
+        flex-shrink: 0;
+        color: var(--col);
+      }
+      .tl {
+        color: #fff;
+        font-family: var(--fontfjura);
+        font-size: 1.4vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .n1 {
+        color: #898989;
+        font-family: var(--fontfjura);
+        font-size: 1.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

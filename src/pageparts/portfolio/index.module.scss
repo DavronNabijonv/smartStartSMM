@@ -1,0 +1,92 @@
+@import url(../../styles/style.scss);
+
+.port {
+  height: 95vw;
+  .pttl {
+    width: 100%;
+    height: 4.5%;
+    margin: 0 -4% 1.2% 0;
+    text-align: center;
+    color: var(--col);
+    font-family: var(--fontfjura);
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 4% 0;
+  }
+  .pbody {
+    padding: 0.3% 0 0 0;
+    .grp1 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 0.8%;
+      padding: 5.3% 0 0 8.8%;
+      .c1 {
+        width: 53.5vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+      .kichik1 {
+        width: 28vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+    }
+    .grp2 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 1.5%;
+      padding: 0 0 0 8.8%;
+      margin-top: 0.8%;
+      .c2 {
+        width: 54vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+      .kichik2 {
+        width: 26.8vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+    }
+    .grp3 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 1%;
+      padding: 0 0 0 8.8%;
+      margin-top: 0.8%;
+      .c3 {
+        width: 53.5vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+      .kichik3 {
+        width: 28vw;
+        height: 19vw;
+        flex-shrink: 0;
+      }
+    }
+    .grp4 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 1em;
+      padding: 0 0 0 8.8%;
+      margin-top: 0.9%;
+      .kichik4{
+        width: 26.5vw;
+        height: 19.3vw;
+        flex-shrink: 0;
+      }
+      .kichik5 {
+        width: 26vw;
+        height: 19.3vw;
+        flex-shrink: 0;
+      }
+    }
+  }
+}
